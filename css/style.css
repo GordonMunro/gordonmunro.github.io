@@ -47,7 +47,12 @@ iframe {
 .col {
   padding: 10px;
 }
-
+.col_loc {
+  max-height: 300px;
+}
+.loc {
+  height: 300px;
+}
 .nav-button {
   background-color: rgba(235,226,217,255);
   border: none;
@@ -149,8 +154,7 @@ iframe {
 @media (min-width:769px) {
 
   .main-nav,
-  .row,
-  .foot-img {
+  .row, {
     display: flex;
   }
 
@@ -183,13 +187,7 @@ iframe {
     flex-wrap: wrap;
     flex-direction: row;
   }
-  .foot-img {
-    justify-content: center;
-    }
-  }
-   .foot-thumbs {
-    max-width: 900px;
-    }
+
     .sticky_footer {
       min-height: calc(100vh - 118px);
     }
