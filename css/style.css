@@ -18,7 +18,7 @@ a {
   background-repeat: repeat-y;
   background-size: 100%;
   color: white;
-  height: 90vh;
+  height: 100%;
 }
 
 ul {
@@ -134,7 +134,7 @@ iframe {
   background-repeat: repeat-y;
   background-size: 100%;
   padding: 10px 0;
-  min-height: 90vh;
+  min-height: 100vh;
 }
 #loc_tag {
   color: white;
